@@ -126,3 +126,37 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav-container {
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #15CBC4;
+  justify-content: space-around;
+}
+.nav-container nav {
+  display: flex;
+  padding-left: 25vw;
+}
+.nav-container a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 1.4rem;
+  color: white;
+  white-space: nowrap;
+}
+.nav-container .button-container {
+  display: flex;
+}
+.nav-container .button-container button {
+  border-radius: 20px;
+  padding: 5px 2vw;
+  margin: 0 2vw;
+  color: white;
+  background-color: #15CBC4;
+  border: 2px solid white;
+}
+.nav-container .button-container button:hover {
+  color: #FF6959;
+  border: 2px solid #FFB59B;
+}
