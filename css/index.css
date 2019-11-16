@@ -191,6 +191,7 @@ table {
 @media (max-width: 500px) {
   .main-container {
     flex-direction: column;
+    height: 45vh;
   }
 }
 .main-container .img-container {
@@ -258,6 +259,7 @@ table {
 @media (max-width: 500px) {
   .info-container .info-box h3 {
     font-size: 20px;
+    padding-top: 3vh;
   }
 }
 .info-container .info-box img {
