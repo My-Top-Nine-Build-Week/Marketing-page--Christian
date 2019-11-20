@@ -1,7 +1,7 @@
 .main-container {
     height: 55vh;
-    background-color: rgb(15, 209, 203);
-    display: flex;
+    background-color: @background;
+    .flex();
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
         padding: 30px 0;
 
         h1 {
-            color: white;
+            color: @whitefont;
             font-size: 2.8rem;
             padding: 2vh 0;
 
@@ -48,7 +48,7 @@
         }
 
         h2 {
-            color: white;
+            color: @whitefont;
             font-size: 2rem;
             padding: 2vh 0;
 
@@ -61,12 +61,12 @@
 }
 
 .info-container {
-    display: flex;
+    .flex();
     flex-direction: column;
 
     .info-box {
         height: 25vh;
-        display: flex;
+        .flex();
         flex-direction: row;
 
         h3{
@@ -91,7 +91,7 @@
     
 
     .box-one {
-        background-color: rgb(240, 236, 236);
+        background-color: @grayBackground;
     }
 }
 
@@ -99,9 +99,9 @@
 
 .lead-container {
     height: 40vh;
-    display: flex;
+    .flex();
     flex-direction: row;
-    background-color: rgb(15, 209, 203);
+    background-color: @background;
     width: 100%;
 
     @media @mobile {
@@ -118,12 +118,10 @@
     }
 
     .lead-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        .flex();
+        .midText();
         padding: 0 10%;
-        color: white;
+        color: @whitefont;
         white-space: nowrap;
 
         h1 {
@@ -149,7 +147,7 @@
 
 .mid-container {
     height: 55vh;
-    display: flex;
+    .flex();
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -167,10 +165,9 @@
     }
 
     .midOne {
-        display: flex;
-        width: 50%;
-        height: 50%;
-        background-color: rgb(240, 236, 236);
+        .flex();
+        .outline();
+        background-color: @grayBackground;
 
         @media @mobile {
             width: 100vw;
@@ -178,30 +175,28 @@
         }
     
         .mid-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: black;
+            .flex();
+            .midText();
+            color: @blackfont;
 
             @media @mobile {
                 padding-left: 5%;
             }
 
-            h1{
-                font-size: 2rem;
-                padding-bottom: 5%;
+            h1 {
+                .aboutH1();
             }
+
             h2 {
-                font-size: 1.8rem;
+                .aboutH2();
             }
         }
     }
 
     .midTwo {
-        display: flex;
-        width: 50%;
-        height: 49%;
+        .flex();
+        .outline();
+        background-color: @whiteBackground;
 
         @media @mobile {
             width: 100vw;
@@ -209,90 +204,81 @@
         
 
         .mid-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: rgb(4, 153, 148);
+            .flex();
+            .midText();
+            color: @aquafont;
 
             @media @mobile {
                 padding-left: 5%;
             }
-
-            h1{
-                font-size: 2rem;
-                padding-bottom: 5%;
+            h1 {
+                .aboutH1();
             }
+
             h2 {
-                font-size: 1.8rem;
+                .aboutH2();
             }
         }
     }
 
     .midThree {
-        display: flex;
-        width: 50%;
-        height: 50%;
+        .flex();
+        .outline();
+        background-color: @whiteBackground;
 
         @media @mobile {
             width: 100vw;
-            background-color: rgb(240, 236, 236);
+            background-color: @grayBackground;
         }
         
 
         .mid-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: rgb(4, 153, 148);
+            .flex();
+            .midText();
+            color: @aquafont;
 
             @media @mobile {
-                color: black;
+                color: @blackfont;
                 padding-left: 5%;
             }
-
-            h1{
-                font-size: 2rem;
-                padding-bottom: 5%;
+            h1 {
+                .aboutH1();
             }
+
             h2 {
-                font-size: 1.8rem;
+                .aboutH2();
             }
         }
         
     }
 
     .midFour {
-        display: flex;
-        width: 50%;
-        height: 50%;
-        background-color: rgb(240, 236, 236);
+        .flex();
+        .outline();
+        background-color: @grayBackground;
 
         @media @mobile {
             width: 100vw;
-            background-color: white;
+            background-color: @whiteBackground;
         }
 
         .mid-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: black;
+            .flex();
+            .midText();
+            color: @blackfont;
 
             @media @mobile {
-                color: rgb(4, 153, 148);
+                color: @aquafont;
                 padding-left: 5%;
             }
 
-            h1{
-                font-size: 2rem;
-                padding-bottom: 5%;
+            h1 {
+                .aboutH1();
             }
             h2 {
-                font-size: 1.8rem;
+                .aboutH2();
             }
+            
         }
     }
 

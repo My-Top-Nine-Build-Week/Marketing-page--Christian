@@ -1,3 +1,22 @@
+.flex {
+  display: flex;
+}
+.outline {
+  width: 50%;
+  height: 50%;
+}
+.midText {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutH1 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.aboutH2 {
+  font-size: 1.8rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -373,7 +392,8 @@ body {
 .mid-container .midTwo {
   display: flex;
   width: 50%;
-  height: 49%;
+  height: 50%;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .mid-container .midTwo {
@@ -403,6 +423,7 @@ body {
   display: flex;
   width: 50%;
   height: 50%;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .mid-container .midThree {
