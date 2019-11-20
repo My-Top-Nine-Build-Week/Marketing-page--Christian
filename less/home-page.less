@@ -104,9 +104,17 @@
     background-color: rgb(15, 209, 203);
     width: 100%;
 
+    @media @mobile {
+        height: 30vh;
+    }
+
     img {
        height: 38vh;
        width: 40%;
+
+       @media @mobile {
+           height: 27vh;
+       }
     }
 
     .lead-text {
@@ -116,13 +124,24 @@
         align-items: center;
         padding: 0 10%;
         color: white;
+        white-space: nowrap;
+
         h1 {
             font-size: 3rem;
             padding-bottom: 5%;
+
+            @media @mobile {
+                font-size: 2.5rem;
+            }
+
         }
     
         h2 {
             font-size: 2.3rem;
+
+            @media @mobile {
+                font-size: 1.8rem;
+            }
         }
 
     }
@@ -136,6 +155,13 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @mobile {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        height: 65vh;
+    }
+
     img {
         width: 25vw;
     }
@@ -144,15 +170,23 @@
         display: flex;
         width: 50%;
         height: 50%;
-        
         background-color: rgb(240, 236, 236);
 
+        @media @mobile {
+            width: 100vw;
+        
+        }
+    
         .mid-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: black;
+
+            @media @mobile {
+                padding-left: 5%;
+            }
 
             h1{
                 font-size: 2rem;
@@ -168,6 +202,10 @@
         display: flex;
         width: 50%;
         height: 49%;
+
+        @media @mobile {
+            width: 100vw;
+        }
         
 
         .mid-text {
@@ -176,6 +214,10 @@
             justify-content: center;
             align-items: center;
             color: rgb(4, 153, 148);
+
+            @media @mobile {
+                padding-left: 5%;
+            }
 
             h1{
                 font-size: 2rem;
@@ -191,6 +233,11 @@
         display: flex;
         width: 50%;
         height: 50%;
+
+        @media @mobile {
+            width: 100vw;
+            background-color: rgb(240, 236, 236);
+        }
         
 
         .mid-text {
@@ -199,6 +246,11 @@
             justify-content: center;
             align-items: center;
             color: rgb(4, 153, 148);
+
+            @media @mobile {
+                color: black;
+                padding-left: 5%;
+            }
 
             h1{
                 font-size: 2rem;
@@ -216,12 +268,23 @@
         width: 50%;
         height: 50%;
         background-color: rgb(240, 236, 236);
+
+        @media @mobile {
+            width: 100vw;
+            background-color: white;
+        }
+
         .mid-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: black;
+
+            @media @mobile {
+                color: rgb(4, 153, 148);
+                padding-left: 5%;
+            }
 
             h1{
                 font-size: 2rem;
