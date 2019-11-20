@@ -99,43 +99,139 @@
 
 .lead-container {
     height: 40vh;
-    border: solid 1px maroon;
     display: flex;
+    flex-direction: row;
+    background-color: rgb(15, 209, 203);
+    width: 100%;
+
+    img {
+       height: 38vh;
+       width: 40%;
+    }
+
+    .lead-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%;
+        color: white;
+        h1 {
+            font-size: 3rem;
+            padding-bottom: 5%;
+        }
+    
+        h2 {
+            font-size: 2.3rem;
+        }
+
+    }
 }
 
 .mid-container {
-    height: 53vh;
-    border: solid 1px black;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
+
+    img {
+        width: 25vw;
+    }
 
     .midOne {
         display: flex;
         width: 50%;
         height: 50%;
-        border: solid 1px black;
+        
+        background-color: rgb(240, 236, 236);
+
+        .mid-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+
+            h1{
+                font-size: 2rem;
+                padding-bottom: 5%;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
     }
 
     .midTwo {
         display: flex;
         width: 50%;
         height: 49%;
-        border: solid 1px black;
+        
+
+        .mid-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(4, 153, 148);
+
+            h1{
+                font-size: 2rem;
+                padding-bottom: 5%;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
     }
 
     .midThree {
         display: flex;
         width: 50%;
         height: 50%;
-        border: solid 1px black;
+        
+
+        .mid-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(4, 153, 148);
+
+            h1{
+                font-size: 2rem;
+                padding-bottom: 5%;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+        
     }
 
     .midFour {
         display: flex;
         width: 50%;
-        height: 49%;
-        border: solid 1px black;
+        height: 50%;
+        background-color: rgb(240, 236, 236);
+        .mid-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+
+            h1{
+                font-size: 2rem;
+                padding-bottom: 5%;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
     }
+
+    
 }

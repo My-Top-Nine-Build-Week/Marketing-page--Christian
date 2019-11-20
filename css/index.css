@@ -273,38 +273,116 @@ table {
 /********** About Us ***********/
 .lead-container {
   height: 40vh;
-  border: solid 1px maroon;
   display: flex;
+  flex-direction: row;
+  background-color: #0fd1cb;
+  width: 100%;
+}
+.lead-container img {
+  height: 38vh;
+  width: 40%;
+}
+.lead-container .lead-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+.lead-container .lead-text h1 {
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+.lead-container .lead-text h2 {
+  font-size: 2.3rem;
 }
 .mid-container {
-  height: 53vh;
-  border: solid 1px black;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
+}
+.mid-container img {
+  width: 25vw;
 }
 .mid-container .midOne {
   display: flex;
   width: 50%;
   height: 50%;
-  border: solid 1px black;
+  background-color: #f0ecec;
+}
+.mid-container .midOne .mid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.mid-container .midOne .mid-text h1 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.mid-container .midOne .mid-text h2 {
+  font-size: 1.8rem;
 }
 .mid-container .midTwo {
   display: flex;
   width: 50%;
   height: 49%;
-  border: solid 1px black;
+}
+.mid-container .midTwo .mid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #049994;
+}
+.mid-container .midTwo .mid-text h1 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.mid-container .midTwo .mid-text h2 {
+  font-size: 1.8rem;
 }
 .mid-container .midThree {
   display: flex;
   width: 50%;
   height: 50%;
-  border: solid 1px black;
+}
+.mid-container .midThree .mid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #049994;
+}
+.mid-container .midThree .mid-text h1 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.mid-container .midThree .mid-text h2 {
+  font-size: 1.8rem;
 }
 .mid-container .midFour {
   display: flex;
   width: 50%;
-  height: 49%;
-  border: solid 1px black;
+  height: 50%;
+  background-color: #f0ecec;
+}
+.mid-container .midFour .mid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.mid-container .midFour .mid-text h1 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.mid-container .midFour .mid-text h2 {
+  font-size: 1.8rem;
 }
