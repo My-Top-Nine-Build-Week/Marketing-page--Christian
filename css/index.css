@@ -272,14 +272,14 @@ body {
   display: flex;
   flex-direction: row;
 }
-.info-container .info-box h3 {
+.info-container .info-box p {
   width: 47vw;
   text-align: center;
   font-size: 25px;
   padding-top: 5vh;
 }
 @media (max-width: 500px) {
-  .info-container .info-box h3 {
+  .info-container .info-box p {
     font-size: 20px;
     padding-top: 3vh;
   }
