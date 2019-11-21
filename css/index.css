@@ -190,7 +190,7 @@ body {
 .nav-container .button-container {
   display: flex;
 }
-.nav-container .button-container button {
+.nav-container .button-container .button {
   border-radius: 20px;
   padding: 5px 2vw;
   margin: 0 2vw;
@@ -198,7 +198,12 @@ body {
   background-color: #15CBC4;
   border: 2px solid white;
 }
-.nav-container .button-container button:hover {
+@media (max-width: 500px) {
+  .nav-container .button-container .button {
+    margin: 0 1vw;
+  }
+}
+.nav-container .button-container .button:hover {
   color: #FF6959;
   border: 2px solid #FFB59B;
 }

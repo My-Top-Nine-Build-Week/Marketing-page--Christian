@@ -41,13 +41,17 @@
     .button-container{
         display: flex;
 
-        button {
+        .button {
             border-radius: 20px;
             padding: 5px 2vw;
             margin: 0 2vw;
             color: white;
             background-color: #15CBC4;
             border: 2px solid white;
+
+            @media @mobile {
+                margin: 0 1vw;
+            }
 
             &:hover {
                 color: #FF6959;
